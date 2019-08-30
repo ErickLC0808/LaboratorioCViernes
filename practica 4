@@ -1,0 +1,30 @@
+#include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	int x=0,y=0;
+	
+	printf("ingrese un valor para x\n");
+	scanf("%d",&x);
+	
+	printf("ingrese un valor para y\n");
+	scanf("%d",&y);
+	
+	if(x<y)
+	{
+		printf("la variable de x es mayor");
+	} 
+	else{
+		if(y>x)
+		{
+		printf("la variable y es mayor");	
+		}
+		else
+		{
+			printf("las variables son iguales");
+		}
+	}
+	
+	return 0;
+}
