@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+// Erick Lora Campirano 1864517 laboratorio de programacion estructurada 7-9//
+
+int main(int argc, char *argv[]) {
+	
+    char seguir;
+    int acumulador, contador, numero;
+
+    acumulador = 0;
+    contador = 0;
+    do
+    {
+        printf( "\n   Introduzca un numero entero: ", 163 );
+        scanf( "%d", &numero);
+
+        acumulador += numero;
+        contador++;
+
+        printf( "\n   Desea introducir otro numero (s/n)?: ", 168, 163 );
+        fflush(stdin);
+        scanf( "%c", &seguir);
+    } while ( seguir != 'n');
+
+    printf( "\n   Ha introducido %d n%cmero(s).", contador, 163 );
+    printf( "\n\n   La suma de todos ellos es: %d", acumulador );
+
+	
+	return 0;
+}
