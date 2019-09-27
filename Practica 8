@@ -1,0 +1,26 @@
+#include <stdio.h> 
+#include <stdlib.h> 
+
+int main() { 
+int numeroDeCoches[24]; 
+int R; 
+R = 2; 
+numeroDeCoches[R] = 57; 
+printf("La hora R es %d\n", R); 
+printf("El numero de coches en la hora %d fue de %d coches\n", R, numeroDeCoches[R]); 
+return 0; }
+
+
+#include <stdio.h> 
+#include <stdlib.h> 
+ 
+int main() { 
+int numeroDeCoches[24];  
+int A=8;  
+int B=4; 
+int R=A/B; 
+numeroDeCoches[R]=57; 
+printf("La hora R es %d\n", R); 
+printf("El numero de coches en la hora %d fue de %d coches\n", R, numeroDeCoches[R]); 
+return 0; 
+}
